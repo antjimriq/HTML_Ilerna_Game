@@ -1,0 +1,9 @@
+@font-face {
+    font-family: AcceleracersFont;
+    src: url(../fonts/Delta-BoldItalic.otf);
+}
+
+h1{
+    font-family: AcceleracersFont;
+    text-align: center;
+}
