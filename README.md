@@ -7,3 +7,8 @@
 ### 0.3.1
 ##### Ive fixed some of the css stuff and the link to it.
 
+### 0.4
+##### I've added an image gallery using Javascript and CSS to show images in the character detailed explanation page.
+
+### 0.4.1
+##### I've fixed the Javascript code that wasnt working
