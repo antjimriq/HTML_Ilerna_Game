@@ -12,26 +12,27 @@ img{
     text-align: center;
 }
 
-.vert{
-    background-color: #F2955E;
+.mainbox{
     border-radius: 15px;
     margin: 50px;
     padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 }
-/*
-#vert_images{
-    display: flex;
-    flex-direction: row;
-    background-color: #04B2D9;
-    border-radius: 15px;  
-    box-sizing: border-box;  
-    margin: 50px;
+
+.smallerbox{
+    border-radius: 15px; 
     padding: 50px;
 }
 
-.vertimage{
-    margin-left: 11%;
-} */
+#boxvert{
+  background-color: #F2955E;
+}
+
+#imagevert{
+  background-color: #04B2D9;
+}
+
 
 * {box-sizing:border-box}
 
@@ -69,6 +70,10 @@ img{
   border-radius: 3px 0 0 3px;
 }
 
+.prev{
+  left: 0;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -78,8 +83,7 @@ img{
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
+  padding: 8px;
   bottom: 8px;
   width: 100%;
   text-align: center;

@@ -12,3 +12,6 @@
 
 ### 0.4.1
 ##### I've fixed the Javascript code that wasnt working
+
+### 0.4.2
+##### I´ve changed and improved the CSS so its reusable in the rest of character descriptions
