@@ -33,6 +33,32 @@ img{
   background-color: #04B2D9;
 }
 
+#boxkadeem{
+  background-color: #8A99A6;
+}
+
+#imagekadeem{
+  background-color: #A69337;
+}
+
+#boxtezla{
+  background-color: #6F738E;
+}
+
+#imagetezla{
+  background-color: #537F8B;
+}
+
+#boxkurt{
+  background-color: #F2955E;
+}
+
+#imagekurt{
+  background-color: #04B2D9;
+}
+
+
+
 
 * {box-sizing:border-box}
 
@@ -124,3 +150,4 @@ img{
   from {opacity: .4}
   to {opacity: 1}
 }
+

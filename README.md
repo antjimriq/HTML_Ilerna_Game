@@ -15,3 +15,6 @@
 
 ### 0.4.2
 ##### I´ve changed and improved the CSS so its reusable in the rest of character descriptions
+
+### 0.4.3
+##### Improved the character description with the style and JavaScript
