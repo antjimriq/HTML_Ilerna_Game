@@ -57,6 +57,39 @@ img{
   background-color: #04B2D9;
 }
 
+#boxsilencerz{
+  background-color: #807EBF;
+}
+
+#imagemw{
+  background-color: #48494B;
+}
+
+#boxmm{
+  background-color:#BF5656;
+}
+
+#imagetaro{
+  background-color: #3E3F40;
+}
+
+.back{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 1%;
+  margin-top: 5%;
+}
+
+.continue{
+  background-color: red;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1%;
+  position:fixed;
+  max-width: 500px;
+}
 
 
 
