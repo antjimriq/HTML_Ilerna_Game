@@ -18,3 +18,9 @@
 
 ### 0.4.3
 ##### Improved the character description with the style and JavaScript
+
+### 0.4.4
+##### I've now fully finished the character selection phase
+
+### 0.5
+##### Started to make the finalised story side of the game

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: AcceleracersFont;
+    src: url(../fonts/Delta-BoldItalic.otf);
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#dessert{
+    background-image: url(../images/story_images/Dessert_Start.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.story_text{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:auto;
+    border-radius: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    background-color: red;
+    font-family: AcceleracersFont;
+}
