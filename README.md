@@ -24,3 +24,6 @@
 
 ### 0.5
 ##### Started to make the finalised story side of the game
+
+### 0.5.1
+##### Made the first page with actual story in it and added a script to go through different phases of the page and then go to the next site
