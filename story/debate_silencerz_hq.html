@@ -1,0 +1,43 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../stylesheet/story.css">
+        <link rel="shortcut icon" href="./images/Acceleracers_Logo.jpg">
+        <title>Silencerz - H.Q</title>
+    </head>
+    <body>
+        <div id="image-container">
+            <img id="image" src="../images/story_images/Vert_MW_Debating_MW_Side.PNG">
+        </div>
+        <a id="text-container">
+            <p id="text">Hijo tengo muchisimas cosas que contarte. Llevo trabajando para los SIlencerz desde que tu madre murio. He intentado pararte antes de que llegaras tan lejos pero no he podido. Necesito que me cuentes que viste con los Accelerons.</p>
+        </a>
+        <script>
+           // Initial image index and array of image sources
+            var currentIndex = 0;
+            var imageSources = ['../images/story_images/Vert_MW_Debating_MW_Side.PNG', '../images/story_images/Vert_MW_Debating_Vert_Side.png', '../images/story_images/Vert_MW_Debating_MW_Side.PNG'];
+            var textContents = ['Hijo tengo muchisimas cosas que contarte. Llevo trabajando para los SIlencerz desde que tu madre murio. He intentado pararte antes de que llegaras tan lejos pero no he podido. Necesito que me cuentes que viste con los Accelerons.','¿Porque deberia fiarme de ti? ¿Donde estoy? ¿Se supone que debo fiarme de ti solo porque eres mi padre?', 'Te sugiero que no que nos cuentes todo antes de que tengamos que obligarte.'];
+            
+            function changeContent() {
+                var image = document.getElementById('image');
+                var text = document.getElementById('text');
+            
+                image.style.opacity = '0'; // Set opacity to 0 for a fade-out effect
+            
+                setTimeout(function () {
+                    // Change the image source
+                    currentIndex = (currentIndex + 1) % imageSources.length;
+                    image.src = imageSources[currentIndex];
+                    text.textContent = textContents[currentIndex];
+                    image.style.opacity = '1'; // Set opacity back to 1 for a fade-in effect
+                }, 500); // Adjust the timeout value to match the transition duration
+            }
+            //Interval of the change of image
+            setInterval(changeContent, 10000);
+            var timer = setTimeout(function() {
+                window.location='../story/first_decision.html'
+            }, 30000);
+        </script>
+    </body>
+</html>

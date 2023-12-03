@@ -27,3 +27,6 @@
 
 ### 0.5.1
 ##### Made the first page with actual story in it and added a script to go through different phases of the page and then go to the next site
+
+### 0.6
+##### First decision made and added more story elements to the game
