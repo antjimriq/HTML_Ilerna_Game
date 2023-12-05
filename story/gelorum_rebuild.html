@@ -8,16 +8,16 @@
     </head>
     <body>
         <div id="image-container">
-            <img id="image" src="../images/story_images/Vert_Escapes.png">
+            <img id="image" src="../images/story_images/Gelorum_Pose.png">
         </div>
         <a id="text-container">
-            <p id="text">Sabes que, me voy, no me fio de ninguno de vosotros.</p>
+            <p id="text">¿Cuanto le queda al Sweeper?</p>
         </a>
         <script>
             // Initial image index and array of image sources
             var currentIndex = 0;
-            var imageSources = ['../images/story_images/Vert_Escapes.png', '../images/story_images/Vert_Surrounded.png', '../images/story_images/Vert_Grabbed.png', '../images/story_images/Vert_MW_Debating_MW_Side.PNG', '../images/story_images/Vert_Grabbed.png'];
-            var textContents = ['Sabes que, me voy, no me fio de ninguno de vosotros.', 'Alejaos de mi!,  no os contare nada!', 'Papa haz algo, ¡parales!.', 'Has elegido tu esto Vert, sacaremos la informacion por las malas.', 'Soltadme, la rueda de poder siempre sera de los Accelerons!'];
+            var imageSources = ['../images/story_images/Gelorum_Pose.png', '../images/story_images/RD_Stare.png', '../images/story_images/Gelorum_Smile.png'];
+            var textContents = ['¿Por que el Sweeper no esta acabado?', '...',  'Hemos tenido contratiempos.'];
             
             function changeContent() {
                 var image = document.getElementById('image');
@@ -33,10 +33,10 @@
                     image.style.opacity = '1'; // Set opacity back to 1 for a fade-in effect
                 }, 500); // Adjust the timeout value to match the transition duration
             }
-            setInterval(changeContent, 5000);
+            setInterval(changeContent, 2500);
             var timer = setTimeout(function() {
-                window.location='../story/vert_death.html'
-            }, 25000);
+                window.location='../story/second_decision.html'
+            }, 7500);
         </script>
     </body>
 </html>

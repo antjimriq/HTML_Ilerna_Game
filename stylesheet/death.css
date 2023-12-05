@@ -1,0 +1,33 @@
+@font-face {
+    font-family: AcceleracersFont;
+    src: url(../fonts/Delta-BoldItalic.otf);
+}
+
+*{
+    background-color: black;
+}
+
+#death{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: AcceleracersFont;
+}
+
+#explanation{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 7.5%;
+    font-size: 30px;
+    font-family: AcceleracersFont;
+}
+
+#restart{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-family: AcceleracersFont;
+    font-size: 30px;
+}

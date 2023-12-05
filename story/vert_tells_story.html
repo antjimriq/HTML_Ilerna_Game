@@ -1,0 +1,42 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../stylesheet/story.css">
+        <link rel="shortcut icon" href="./images/Acceleracers_Logo.jpg">
+        <title>Desierto</title>
+    </head>
+    <body>
+        <div id="image-container">
+            <img id="image" src="../images/story_images/Vert_MW_Debating_Vert_Side.png">
+        </div>
+        <a id="text-container">
+            <p id="text">En el final de la ultima carrera me encontre con un ser, un ser de otro mundo, un Acceleron.</p>
+        </a>
+        <script>
+            // Initial image index and array of image sources
+            var currentIndex = 0;
+            var imageSources = ['../images/story_images/Vert_MW_Debating_Vert_Side.png', '../images/story_images/Vert_MW_Debating_MW_Side.png', '../images/story_images/Vert_MW_Debating_Vert_Side.png', '../images/story_images/Vert_MW_Debating_MW_Side.PNG', '../images/story_images/Acceleron.png', '../images/story_images/Vert_MW_Debating_MW_Side.png', '../images/story_images/Vert_Escapes.png', '../images/story_images/Vert_MW_Debating_MW_Side.png', '../images/story_images/Vert_MW_Debating_Vert_Side.png'];
+            var textContents = ['En el final de la ultima carrera me encontre con un ser, un ser de otro mundo, un Acceleron.', '¿Y que te dijo?','Me halago mis habilidades como piloto, dijo que era el piloto que merecia formar parte de ellos', 'Pero, ¿Y Gelorum?', 'Ella llego antes que yo al final, pero creo que los Accelerons buscaban a un piloto que pudiera completar los reinos sin la ayuda de los Accelechargers.','¿Entonces, Gelorum ha perdido?', 'Supongo que si, pero,,,,', 'Pero que Vert?', 'El Acceleron no la destruyó'];
+            
+            function changeContent() {
+                var image = document.getElementById('image');
+                var text = document.getElementById('text');
+            
+                image.style.opacity = '0'; // Set opacity to 0 for a fade-out effect
+            
+                setTimeout(function () {
+                    // Change the image source
+                    currentIndex = (currentIndex + 1) % imageSources.length;
+                    image.src = imageSources[currentIndex];
+                    text.textContent = textContents[currentIndex];
+                    image.style.opacity = '1'; // Set opacity back to 1 for a fade-in effect
+                }, 500); // Adjust the timeout value to match the transition duration
+            }
+            setInterval(changeContent, 5000);
+            var timer = setTimeout(function() {
+                window.location='../story/gelorum_rebuild.html'
+            }, 45000);
+        </script>
+    </body>
+</html>
